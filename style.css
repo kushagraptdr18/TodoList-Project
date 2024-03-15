@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #C7B7A3;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C7B7A3;
+}
+#container{
+    width: 500px;
+    background-color: #561C24;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 30px;
+    transition: all ease .3s;
+    border-radius: 10px;
+    
+}
+#container h1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: kinta;
+}
+#container img{
+    height: 40px;
+}
+#row{
+    display: flex;
+    /* gap: 30px; */
+    border-radius: 30px;
+    border: 1px solid #C7B7A3;
+    
+    
+}
+#row input{
+    padding: 10px 40px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    
+}
+#rekh{
+    height: 1px;
+    width: 100%;
+    background-color: #c7b7a3a4;
+}
+#row button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: #561C24;
+    background-color: #C7B7A3;
+    font-size: 25px;
+    cursor: pointer;
+}
+ul{
+    font-size: 25px;
+    font-family: kinta;
+    line-height: 40px;
+    margin-left: 10px;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    z-index: 99;
+     
+    
+}
+#line{
+    color: #561C24;
+    width: 450px;
+    background-color: #c7b7a335;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* border-radius: 30px; */
+    padding: 6px;
+    
+}
+#line i{
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+
+#cut i{
+    cursor: pointer;
+    font-size: 25px;
+}
+#min{
+    
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 50%    ;
+    transition: all ease 0.3;
+    opacity: 0;
+}
+#sath{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+h5{
+    z-index: 99;
+    font-size: 30px;
+}
